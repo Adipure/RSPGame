@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Rock Scissors paper game</title>
+</head>
+<body>
+  <script>
+ let isCorrect = 0;
+
+ let isTie = 0;
+
+ let isLose = 0;
+ let arr = ['rock','scissors','paper'];
+
+ for (let i = 0; i <= 10; i++) {
+ let answer = answer[Math.ceil(Math.random() * 2)];
+
+  console.log (answer);
+
+ let arr = prompt ('Pick your choice between Rock, Scissors or paper ')   
+ if (arr === 'rock'  && answer === 'scissors') {
+  alert ('Your Win!')
+ } else {
+  alert ('You Lost !')
+
+ }
+ 
+  if(isCorrect === false){
+   let guess = prompt ('Pick your choice')
+   if ((arr[1]) < (arr[2]) === false){
+    alert('You win!')
+    isCorrect = true
+   }
+   else{
+    alert(` ${answer}`)
+    }
+   }else {
+    alert ('You lost ! Try again')
+   } 
+    if ((arr['rock']) < (arr['scissors'])=== false)
+    alert ('You win!')
+    isTie = true
+
+
+  
+  
+  
+
+
+
+  </script>
+</body>
+</html>
